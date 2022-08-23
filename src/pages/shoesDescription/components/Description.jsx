@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
-import CardDescription from "../../../components/cardDescription/components/cardDescription";
+import CardDescription from "../../../components/descriptionCard/components/CardDescription";
 import { getIdProductsServices } from "../../../services/getProductServices";
 
 const Description = () => {
