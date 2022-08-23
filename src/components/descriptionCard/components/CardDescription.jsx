@@ -1,7 +1,7 @@
 import { useState } from "react";
-import style from "../styles/cardDescription.module.css";
-import nikeLogo from "../../../assets/images/Nikelogo.png";
 import AddCart from "../../addCart/components/addCart";
+import nikeLogo from "../../../assets/images/Nikelogo.png";
+import style from "../styles/cardDescription.module.css";
 
 const CardDescription = ({ shoe }) => {
   const [image, setImage] = useState(undefined);

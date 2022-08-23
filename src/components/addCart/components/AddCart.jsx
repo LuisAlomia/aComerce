@@ -13,7 +13,7 @@ const AddCart = ({ item }) => {
   const handdlePorchase = () => {
     token !== "" && dispatch(setCart(item));
     setSession(true);
-    setTimeout(() => setSession(false), 2000);
+    setTimeout(() => setSession(false), 1000);
   };
 
   return (
