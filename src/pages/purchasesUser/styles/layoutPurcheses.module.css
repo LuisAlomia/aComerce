@@ -1,0 +1,10 @@
+.nav {
+  background-color: var(--bg-secundary);
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.main {
+  margin: 6rem 0 3rem 0;
+}

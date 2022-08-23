@@ -1,0 +1,22 @@
+.content {
+  height: 100%;
+  position: relative;
+}
+
+.nav {
+  background-color: var(--bg-secundary);
+  width: 100%;
+  position: fixed;
+  top: 0;
+}
+
+.main {
+  min-height: 79vh;
+  margin: 6rem 0 1rem 0;
+}
+
+.footer {
+  position: relative;
+  width: 100%;
+  bottom: 0rem;
+}

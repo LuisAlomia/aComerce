@@ -1,0 +1,142 @@
+.content {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.contentForm {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius);
+  position: relative;
+}
+
+.constentArrow {
+  background-color: var(--bg-secundary);
+  padding: 0.7rem;
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.2);
+  position: absolute;
+  top: 1.2rem;
+  left: -1.2rem;
+  cursor: pointer;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.arrow {
+  width: 1.2rem;
+}
+
+.constentArrow:hover {
+  background-color: rgb(129, 129, 129);
+}
+
+.form {
+  padding: 2rem;
+  width: 20rem;
+  height: 25rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  font-size: 1rem;
+  border-radius: var(--radius);
+}
+
+.formTitle {
+  margin-bottom: 1rem;
+}
+
+.formInput {
+  background-color: rgba(228, 228, 222, 0.452);
+  margin-top: 0.5rem;
+  padding: 0.4rem;
+  border: none;
+  border-radius: var(--radius);
+  outline: none;
+}
+
+.formInput:hover {
+  background-color: rgba(190, 190, 188, 0.623);
+}
+
+.formInput:focus {
+  background-color: rgba(190, 190, 188, 0.623);
+}
+
+.formButton {
+  background-color: var(--bg-primary);
+  color: var(--color-secundary);
+  margin: 2rem 0;
+  width: 9rem;
+  padding: 0.5rem;
+  text-decoration: none;
+  border: none;
+  border-radius: var(--radius);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size-button);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  cursor: pointer;
+}
+
+.formButton:hover {
+  background-color: var(--bg-secundary);
+  color: var(--color-primary);
+}
+
+.formText {
+  font-size: var(--font-size-button);
+}
+
+.formText span {
+  color: rgb(47, 255, 99);
+  cursor: pointer;
+}
+
+.formText:hover span {
+  font-weight: var(--font-weight);
+}
+
+.image {
+  width: 20rem;
+  height: 25rem;
+}
+
+.imgRegister {
+  border-radius: 0 var(--radius) var(--radius) 0;
+}
+
+.imgLogin {
+  border-radius: var(--radius) 0 0 var(--radius);
+}
+
+/* Responsive */
+
+@media (max-width: 680px) {
+  .contentForm {
+    flex-direction: column;
+    box-shadow: none;
+  }
+
+  .form {
+    width: 16rem;
+    height: 21rem;
+  }
+
+  .image {
+    width: 16rem;
+    height: 19rem;
+    border-radius: var(--radius);
+  }
+
+  .constentArrow {
+    top: -1rem;
+    left: -1.5rem;
+  }
+}

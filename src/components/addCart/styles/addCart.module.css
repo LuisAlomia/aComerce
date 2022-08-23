@@ -1,0 +1,35 @@
+.content {
+  position: relative;
+}
+
+.contentCart {
+  background-color: var(--color-secundary);
+  width: 2.5rem;
+  height: 2.5rem;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 0 0.2rem rgba(0, 0, 0, 0.4);
+  cursor: pointer;
+}
+
+.imgCart {
+  width: 1.5rem;
+}
+
+.contentCart:hover {
+  border: 0.2rem solid;
+}
+
+.sesion {
+  width: 10rem;
+  background-color: var(--bg-primary);
+  color: var(--color-secundary);
+  padding: 0.5rem;
+  position: absolute;
+  top: 2.8rem;
+  border-radius: 0.5rem;
+  font-size: 0.9rem;
+  font-weight: 100;
+}

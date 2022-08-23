@@ -1,0 +1,55 @@
+.table {
+  padding: 1rem;
+  border-radius: var(--radius);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  text-transform: capitalize;
+  cursor: default;
+  font-size: 0.8rem;
+}
+
+.row {
+  background-color: var(--bg-primary);
+  color: var(--color-secundary);
+  padding: 0.3rem;
+  text-align: center;
+}
+
+.column {
+  border-radius: var(--radius);
+  padding: 0.3rem;
+}
+
+.buttom {
+  background-color: var(--bg-secundary);
+  padding: 0.5rem;
+  border: none;
+  border-radius: var(--radius);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size-button);
+  cursor: pointer;
+}
+
+.buttom:hover {
+  background-color: var(--bg-primary);
+  color: var(--color-secundary);
+}
+
+.tableMovil {
+  display: none;
+}
+
+@media (max-width: 720px) {
+  .table {
+    box-shadow: none;
+  }
+}
+
+@media (max-width: 500px) {
+  .table {
+    display: none;
+  }
+
+  .tableMovil {
+    display: block;
+  }
+}

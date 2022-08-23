@@ -1,0 +1,20 @@
+.buttons {
+  margin: 0 0.5rem;
+  padding: 0.7rem;
+  text-decoration: none;
+  border: 0.1rem solid var(--color-primary);
+  border-radius: var(--radius);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size-button);
+  cursor: pointer;
+}
+
+.full {
+  background-color: var(--bg-primary);
+  color: var(--color-secundary);
+}
+
+.full:hover {
+  background-color: var(--bg-secundary);
+  color: var(--color-primary);
+}

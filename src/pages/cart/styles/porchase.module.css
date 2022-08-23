@@ -1,0 +1,23 @@
+.buttonBuy {
+  background-color: var(--bg-secundary);
+  padding: 0.5rem;
+  border-radius: var(--radius);
+  font-weight: var(--font-weight);
+  cursor: pointer;
+  font-size: 1rem;
+  border: 0.1rem solid;
+}
+
+.buttonBuy:hover {
+  background-color: var(--bg-primary);
+  color: var(--color-secundary);
+}
+
+/* Responsive */
+
+@media (max-width: 650px) {
+  .buttonBuy {
+    padding: 0.5rem 0.1rem;
+    font-size: 0.8rem;
+  }
+}

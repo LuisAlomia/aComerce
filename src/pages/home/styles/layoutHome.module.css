@@ -1,0 +1,46 @@
+.content {
+  width: 100%;
+  min-height: 100vh;
+  position: relative;
+}
+
+.nav {
+  background-color: var(--bg-secundary);
+  width: 100%;
+  height: 4.6rem;
+  position: fixed;
+  top: 0;
+  z-index: 1;
+}
+
+.header {
+  width: 100%;
+  margin-top: 4.6rem;
+  overflow: hidden;
+}
+
+.sectionBanner {
+  width: 80%;
+  margin: 4rem auto 0 auto;
+}
+
+.sectionListProducts {
+  width: 80%;
+  margin: 4rem auto 3rem auto;
+}
+
+.footer {
+  width: 100%;
+  height: 5rem;
+  margin-top: 5rem;
+  position: relative;
+  bottom: 0;
+}
+
+/* Responsive */
+
+@media (max-width: 700px) {
+  .sectionListProducts {
+    width: 90%;
+  }
+}

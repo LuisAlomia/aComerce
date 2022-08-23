@@ -1,0 +1,23 @@
+.content {
+  width: 20rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem;
+}
+
+.text {
+  margin: 0.5rem 0;
+}
+
+.contentImage {
+  width: 8rem;
+}
+
+/* responsive */
+
+@media (max-width: 400px) {
+  .contentImage {
+    width: 4rem;
+  }
+}

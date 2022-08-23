@@ -1,0 +1,50 @@
+.form {
+  padding: 1rem;
+  width: 20rem;
+  height: 45rem;
+  display: flex;
+  flex-direction: column;
+  font-size: 1rem;
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.2);
+  border-radius: var(--radius);
+}
+
+.formInput {
+  background-color: rgba(228, 228, 222, 0.452);
+  margin-top: 0.5rem;
+  padding: 0.4rem;
+  border: none;
+  border-radius: var(--radius);
+  outline: none;
+}
+
+.formLabel {
+  margin: 0 1rem 0 0.4rem;
+  font-size: 0.8rem;
+}
+
+.formInput:hover {
+  background-color: rgba(190, 190, 188, 0.623);
+}
+
+.formInput:focus {
+  background-color: rgba(190, 190, 188, 0.623);
+}
+
+.formButtom {
+  background-color: var(--bg-secundary);
+  margin: 1rem 0;
+  padding: 0.5rem;
+  text-decoration: none;
+  border: none;
+  border-radius: var(--radius);
+  font-weight: var(--font-weight);
+  font-size: var(--font-size-button);
+  box-shadow: 0 0 1rem rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+}
+
+.formButtom:hover {
+  background-color: var(--bg-primary);
+  color: var(--color-secundary);
+}
